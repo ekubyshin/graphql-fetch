@@ -11,6 +11,10 @@
     "graphql",
     "fetch"
   ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ekubyshin/graphql-fetch"
+  },
   "author": "Evgeniy Kubyshin",
   "license": "ISC",
   "devDependencies": {
