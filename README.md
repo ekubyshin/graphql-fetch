@@ -7,6 +7,8 @@ Returns GraphQL response (JSON).
 
 If errors occurred then field named errors is present.
 
+Based on isomorphic-fetch
+
 #Usage:
 
     import fabric from 'graphql-fetch'
