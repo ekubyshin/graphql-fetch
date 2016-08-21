@@ -5,7 +5,7 @@
   "main": "bin/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "install": "node ./node_modules/babel-core/index.js lib/index.js -o bin/index.js"
+    "install": "node ./node_modules/babel-cli/bin/babel lib/index.js -o bin/index.js"
   },
   "keywords": [
     "graphql",
@@ -14,6 +14,7 @@
   "author": "Evgeniy Kubyshin",
   "license": "ISC",
   "devDependencies": {
+    "babel-cli": "^6.11.4",
     "babel-core": "^6.13.2",
     "babel-preset-es2015": "^6.13.2",
     "babel-preset-stage-2": "^6.13.0"
