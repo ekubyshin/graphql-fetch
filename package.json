@@ -1,0 +1,21 @@
+{
+  "name": "graphql-fetch",
+  "version": "1.0.0",
+  "description": "Fetch utility for GraphQL requests",
+  "main": "bin/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "install": "node ./node_modules/babel-core/index.js lib/index.js -o bin/index.js"
+  },
+  "keywords": [
+    "graphql",
+    "fetch"
+  ],
+  "author": "Evgeniy Kubyshin",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-core": "^6.13.2",
+    "babel-preset-es2015": "^6.13.2",
+    "babel-preset-stage-2": "^6.13.0"
+  }
+}
