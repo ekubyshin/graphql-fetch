@@ -11,7 +11,7 @@ Based on isomorphic-fetch
 
 #Usage:
 
-    import fabric from 'graphql-fetch'
+    import fabric from 'graphqlfetcher'
     const fetch = fabric('http://som_url/graphql');
     
     fetch(`
