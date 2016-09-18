@@ -1,6 +1,6 @@
 {
   "name": "graphqlfetcher",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Fetch utility for GraphQL requests",
   "main": "bin/index.js",
   "scripts": {
